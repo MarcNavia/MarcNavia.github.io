@@ -8,10 +8,10 @@ excerpt: "Excerpt ffffffffffffffffffffffff"
 ---
 # PLease work
 
-'''python
-    import numpy as np
+{% highlight python %}
+import numpy as np
 
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-'''
+def test_function(x,y):
+  sum = x + y
+  return sum
+{% endhighlight %}
