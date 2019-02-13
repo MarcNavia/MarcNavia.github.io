@@ -101,8 +101,8 @@ analytics:
 # Site Author
 author:
   name             : "Marc Navia"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : /images/BioPic.jpg
+  bio              : "Business Adminstration Major with a Concentration in Information Technology at North Carolina State University. Inspiring Data Scientist."
   location         : "Raleigh, North Carolina"
   email            : "Manavia@ncsu.edu"
   url              :
