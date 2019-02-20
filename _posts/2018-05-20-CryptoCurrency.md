@@ -120,7 +120,6 @@ ax.set(ylabel="% of total cap")
 
 
 
-    [Text(0,0.5,'% of total cap')]
 
 
 
@@ -153,7 +152,7 @@ ax.set_xlabel("")
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_9_2_1.svg" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_9_2.svg" alt="Test">
 
 
 ## What is going on?! Volatility in cryptocurrencies
@@ -268,7 +267,7 @@ fig, ax = top10_subplot(volatility.percent_change_24h, DTITLE)
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_13_0_1.svg" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_13_0.svg" alt="Test">
 
 
 ## Ok, those are... interesting. Let's check the weekly Series too.
