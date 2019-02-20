@@ -348,7 +348,7 @@ _= plt.yticks(np.arange(0, 3, 1))
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/GenderPrediction/output_13_0.svg" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl   }}/images/GenderPrediction/output_13_0.png" alt="Test">
 
 
 ## Raising the bar
@@ -373,4 +373,4 @@ _= plt.legend()
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/GenderPrediction/output_15_0.svg" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/GenderPrediction/output_15_0.png" alt="Test">
