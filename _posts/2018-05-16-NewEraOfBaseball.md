@@ -6,6 +6,7 @@ header:
     image: "/images/"
 excerpt: "This is the excerpt"
 mathjax: "true"
+toc: "true"
 ---
 
 ## The Statcast revolution
