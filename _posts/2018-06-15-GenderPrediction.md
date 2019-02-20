@@ -2,7 +2,7 @@
 title: "Gender Prediction"
 date: 2018-06-15
 tags: [Jupyter, Python]
-excerpt: "This is the excerpt"
+excerpt: "In this post we analyze the gender distribution of children's book writers and use sounds to match names to gender"
 mathjax: "true"
 toc: "true"
 

@@ -2,7 +2,7 @@
 title: "New Era of Baseball"
 date: 2018-05-16
 tags: [Jupyter, Python]
-excerpt: "In this project we look at two baseball players and their homeruns"
+excerpt: "In this project we will use MLB's statcast data to compare Giancarlo Stanton and Aaron Judge"
 mathjax: "true"
 toc: "true"
 ---
