@@ -2,10 +2,10 @@
 title: "Gender Prediction"
 date: 2018-06-15
 tags: [Jupyter, Python]
-header:
-    image: "/images/"
 excerpt: "This is the excerpt"
 mathjax: "true"
+toc: "true"
+
 ---
 
 ## Sound it out!

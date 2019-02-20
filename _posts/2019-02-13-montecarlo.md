@@ -1,11 +1,11 @@
 ---
 title: "Create A Monte Carlo Simulation"
-date: 2018-01-28
-tags: [Monte Carlo, Excel, Predictive Analytics]
-header:
-    image: "/images/"
+date: 201-02-23
+tags: [Monte Carlo, Excel]
 excerpt: "This is the excerpt"
 mathjax: "true"
+toc: "true"
+
 ---
 
 # Creating The Model
@@ -41,3 +41,5 @@ To improve this model, collecting better information on the market size and R&D 
 Looking at the Trend Chart we can expect the average Cumulative Net Profit to be above zero by year 4 . We also can see that by year four we are  90% likely that the cumulative NPV will be between -$180,000,000 and $620,000,000
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/MonteCarlo/MonteCarlo6.png" alt="Test">
+
+you can [get the excelsheet]({{ site.url }}/assets/MonteCarloProject.xlsx) directly.

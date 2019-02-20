@@ -1,11 +1,11 @@
 ---
 title: "Professor William Sharpe"
-date: 2018-01-28
+date: 2019-02-18
 tags: [Jupyter notebook, Python]
-header:
-    image: "/images/"
 excerpt: "This is the excerpt"
 mathjax: "true"
+toc: "true"
+
 ---
 
 ## Meet Professor William Sharpe

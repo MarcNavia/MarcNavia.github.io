@@ -1,10 +1,10 @@
 ---
 title: "CryptoCurrency Analysis"
-date: 2018-01-29
+date: 2018-05-20
 tags: [Juypter, Python]
-header:
-  image: "/images/"
 excerpt: "Excerpt"
+toc: "true"
+
 ---
 ## Bitcoin. Cryptocurrencies. So hot right now.
 <p>Since the <a href="https://newfronttest.bitcoin.com/bitcoin.pdf">launch of Bitcoin in 2008</a>, hundreds of similar projects based on the blockchain technology have emerged. We call these cryptocurrencies (also coins or cryptos in the Internet slang). Some are extremely valuable nowadays, and others may have the potential to become extremely valuable in the future<sup>1</sup>. In fact, the 6th of December of 2017 Bitcoin has a <a href="https://en.wikipedia.org/wiki/Market_capitalization">market capitalization</a> above $200 billion. </p>

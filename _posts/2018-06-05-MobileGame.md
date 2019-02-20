@@ -1,11 +1,11 @@
 ---
 title: "Mobile Games A/B Testing"
-date: 2018-01-28
+date: 2018-06-05
 tags: [Juypter, Python]
-header:
-    image: "/images/"
 excerpt: "This is the excerpt"
 mathjax: "true"
+toc: "true"
+
 ---
 
 ## Of cats and cookies

@@ -1,9 +1,7 @@
 ---
 title: "New Era of Baseball"
-date: 2018-01-28
+date: 2018-05-16
 tags: [Jupyter, Python]
-header:
-    image: "/images/"
 excerpt: "This is the excerpt"
 mathjax: "true"
 toc: "true"
