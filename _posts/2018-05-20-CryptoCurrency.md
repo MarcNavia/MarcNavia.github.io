@@ -127,7 +127,7 @@ ax.set(ylabel="% of total cap")
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_7_1.svg" alt="Test">
 
-## 5. Making the plot easier to read and more informative
+## Making the plot easier to read and more informative
 <p>While the plot above is informative enough, it can be improved. Bitcoin is too big, and the other coins are hard to distinguish because of this. Instead of the percentage, let's use a log<sup>10</sup> scale of the "raw" capitalization. Plus, let's use color to group similar coins and make the plot more informative<sup>1</sup>. </p>
 <p>For the colors rationale: bitcoin-cash and bitcoin-gold are forks of the bitcoin <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a><sup>2</sup>. Ethereum and Cardano both offer Turing Complete <a href="https://en.wikipedia.org/wiki/Smart_contract">smart contracts</a>. Iota and Ripple are not minable. Dash, Litecoin, and Monero get their own color.</p>
 <p><sup>1</sup> <em>This coloring is a simplification. There are more differences and similarities that are not being represented here.</em></p>
@@ -148,14 +148,7 @@ ax.set_ylabel('USD')
 ax.set_xlabel("")
 ```
 
-    /anaconda3/lib/python3.6/site-packages/pandas/plotting/_core.py:194: UserWarning: 'colors' is being deprecated. Please use 'color'instead of 'colors'
-      warnings.warn(("'colors' is being deprecated. Please use 'color'"
 
-
-
-
-
-    Text(0.5,0,'')
 
 
 
@@ -163,7 +156,7 @@ ax.set_xlabel("")
 <img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_9_2_1.svg" alt="Test">
 
 
-## 6. What is going on?! Volatility in cryptocurrencies
+## What is going on?! Volatility in cryptocurrencies
 <p>The cryptocurrencies market has been spectacularly volatile since the first exchange opened. This notebook didn't start with a big, bold warning for nothing. Let's explore this volatility a bit more! We will begin by selecting and plotting the 24 hours and 7 days percentage change, which we already have available.</p>
 
 
@@ -295,7 +288,7 @@ fig, ax = top10_subplot(volatility7d.percent_change_7d, WTITLE)
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_15_0_1.svg" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/CryptoCurrency/output_15_0.svg" alt="Test">
 
 
 ## How small is small?
@@ -354,7 +347,6 @@ plt.ylabel('number of coins')
 
 
 
-    Text(0,0.5,'number of coins')
 
 
 

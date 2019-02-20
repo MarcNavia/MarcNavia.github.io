@@ -773,7 +773,7 @@ cb.set_label('Counts in Bin')
 <img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_17_0.png" alt="Test">
 
 
-## 10. Should opposing pitchers be scared?
+## Should opposing pitchers be scared?
 <p>A few takeaways:</p>
 <ul>
 <li>Stanton does not hit many home runs on pitches in the upper third of the strike zone.</li>

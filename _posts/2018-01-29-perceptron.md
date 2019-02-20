@@ -1,7 +1,7 @@
 ---
-title: "First Analytics Post"
+title: "Test Post2"
 date: 2018-01-29
-tags: [Test1, test2]
+tags: [Test1]
 header:
   image: "/images/"
 excerpt: "Excerpt ffffffffffffffffffffffff"
