@@ -650,11 +650,11 @@ sns.kdeplot(stanton_hr['launch_speed'], stanton_hr['launch_angle'], cmap="Blues"
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Basevall/output_7_1.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_7_1.png" alt="Test">
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Basevall/output_7_2.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_7_2.png" alt="Test">
 
 
 ## 5. Home runs by pitch velocity
@@ -678,7 +678,7 @@ sns.boxplot(x=judge_stanton_hr['release_speed'], data=judge_stanton_hr, color='t
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Basevall/output_9_1.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Basball/output_9_1.png" alt="Test">
 
 
 ## 6. Home runs by pitch location (I)
@@ -747,7 +747,7 @@ cb.set_label('Counts in Bin')
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Basevall/output_15_1.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_15_1.png" alt="Test">
 
 
 ## 9. Giancarlo Stanton's home run zone
@@ -772,7 +772,7 @@ cb.set_label('Counts in Bin')
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Basevall/output_17_0.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_17_0.png" alt="Test">
 
 
 ## 10. Should opposing pitchers be scared?
