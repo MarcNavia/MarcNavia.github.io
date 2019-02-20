@@ -2,7 +2,7 @@
 title: "CryptoCurrency Analysis"
 date: 2018-05-20
 tags: [Juypter, Python]
-excerpt: "Excerpt"
+excerpt: "We take a look at the hottest CryptoCurrency"
 toc: "true"
 
 ---

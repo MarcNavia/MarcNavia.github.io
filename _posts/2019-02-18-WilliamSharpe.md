@@ -2,7 +2,7 @@
 title: "Professor William Sharpe"
 date: 2019-02-18
 tags: [Jupyter notebook, Python]
-excerpt: "This is the excerpt"
+excerpt: "Amazon or Facebook, using the Sharpe Ratio to determine the best investment"
 mathjax: "true"
 toc: "true"
 

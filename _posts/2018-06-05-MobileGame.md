@@ -2,7 +2,7 @@
 title: "Mobile Games A/B Testing"
 date: 2018-06-05
 tags: [Juypter, Python]
-excerpt: "This is the excerpt"
+excerpt: "In this post we look at how player retention through Cookie Cats levels"
 mathjax: "true"
 toc: "true"
 

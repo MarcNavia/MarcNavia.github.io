@@ -2,7 +2,7 @@
 title: "Create A Monte Carlo Simulation"
 date: 201-02-23
 tags: [Monte Carlo, Excel]
-excerpt: "This is the excerpt"
+excerpt: "This post will go over how to run a Monte Carlo Simulation in Excel"
 mathjax: "true"
 toc: "true"
 

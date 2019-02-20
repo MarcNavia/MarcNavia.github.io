@@ -2,7 +2,7 @@
 title: "New Era of Baseball"
 date: 2018-05-16
 tags: [Jupyter, Python]
-excerpt: "This is the excerpt"
+excerpt: "In this project we look at two baseball players and their homeruns"
 mathjax: "true"
 toc: "true"
 ---

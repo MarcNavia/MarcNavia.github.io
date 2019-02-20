@@ -2,7 +2,7 @@
 title: "Discovery of Handwashing"
 date: 2018-07-15
 tags: [Jupyter, Python]
-excerpt: "This is the excerpt"
+excerpt: "We look into the Dr. Ignaz discovery of the importance of handwashing"
 mathjax: "true"
 toc: "true"
 
