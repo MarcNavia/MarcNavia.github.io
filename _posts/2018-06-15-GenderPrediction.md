@@ -1,0 +1,58 @@
+---
+title: "Test Post1"
+date: 2018-01-28
+tags: [Test]
+header:
+    image: "/images/"
+excerpt: "This is the excerpt"
+mathjax: "true"
+---
+
+# H1 Heading
+
+## H2 Heading
+
+### H3 Heading
+
+Basic test
+
+test *italics*
+
+test **bold**
+
+Test [link](www.google.com)
+
+bulleted list:
+* first tiem
++ second item
+- third item
+
+Here's a numbered list:
+1. first
+2. second
+3. Third
+
+python code block:
+'''python
+    import numpy as np
+
+    def test_function(x, y):
+     z = np.sum(x,y)
+     return z
+'''
+
+R code block:
+'''r
+library(tidyverse)
+df <- read_csv("file.csv)
+head(df)
+'''
+Image
+
+Math
+
+$$z=x+y$$
+
+you can [get the excelsheet]({{ site.url }}/assets/MonteCarloProject.xlsx) directly.
+
+you can [get the PDF]({{ site.url }}/assets/Syllabus.pdf) directly.
