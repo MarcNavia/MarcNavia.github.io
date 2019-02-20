@@ -8,7 +8,7 @@ excerpt: "This is the excerpt"
 mathjax: "true"
 ---
 
-## 1. The Statcast revolution
+## The Statcast revolution
 <p><img style="float: left;margin:5px 20px 5px 1px" src="https://s3.amazonaws.com/assets.datacamp.com/production/project_250/img/judge_wide.jpg"></p>
 <p>This is Aaron Judge. Judge is one of the physically largest players in Major League Baseball standing 6 feet 7 inches (2.01 m) tall and weighing 282 pounds (128 kg). He also hit the <a href="https://www.mlb.com/news/aaron-judge-sets-statcast-exit-velocity-record/c-235640846">hardest home run</a> ever recorded. How do we know this? <strong>Statcast</strong>.</p>
 <p>Statcast is a state-of-the-art tracking system that uses high-resolution cameras and radar equipment to measure the precise location and movement of baseballs and baseball players. Introduced in 2015 to all 30 major league ballparks, Statcast data is revolutionizing the game. Teams are engaging in an "arms race" of data analysis, hiring analysts left and right in an attempt to gain an edge over their competition. This <a href="https://www.youtube.com/watch?v=9rOKGKhQe8U">video</a> describing the system is incredible.</p>
@@ -28,7 +28,7 @@ judge = pd.read_csv('datasets/judge.csv')
 stanton = pd.read_csv('datasets/stanton.csv')
 ```
 
-## 2. What can Statcast measure?
+## What can Statcast measure?
 <p>The better question might be, what can't Statcast measure?</p>
 <blockquote>
   <p>Starting with the pitcher, Statcast can measure simple data points such as velocity. At the same time, Statcast digs a whole lot deeper, also measuring the release point and spin rate of every pitch.</p>
@@ -613,7 +613,7 @@ print(stanton_events_2017.value_counts())
     Name: events, dtype: int64
 
 
-## 4. Analyzing home runs with Statcast data
+## Analyzing home runs with Statcast data
 <p>So Judge walks and strikes out more than Stanton. Stanton flies out more than Judge. But let's get into their hitting profiles in more detail. Two of the most groundbreaking Statcast metrics are launch angle and exit velocity:</p>
 <ul>
 <li><a href="http://m.mlb.com/glossary/statcast/launch-angle">Launch angle</a>: the vertical angle at which the ball leaves a player's bat</li>
@@ -645,7 +645,6 @@ sns.kdeplot(stanton_hr['launch_speed'], stanton_hr['launch_angle'], cmap="Blues"
 
 
 
-    Text(0.5,1,'Giancarlo Stanton\nHome Runs, 2015-2017')
 
 
 
@@ -657,7 +656,7 @@ sns.kdeplot(stanton_hr['launch_speed'], stanton_hr['launch_angle'], cmap="Blues"
 <img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_7_2.png" alt="Test">
 
 
-## 5. Home runs by pitch velocity
+## Home runs by pitch velocity
 <p>It appears that Stanton hits his home runs slightly lower and slightly harder than Judge, though this needs to be taken with a grain of salt given the small sample size of home runs.</p>
 <p>Not only does Statcast measure the velocity of the ball coming off of the bat, it measures the velocity of the ball coming out of the pitcher's hand and begins its journey towards the plate. We can use this data to compare Stanton and Judge's home runs in terms of pitch velocity. Next you'll find box plots displaying the five-number summaries for each player: minimum, first quartile, median, third quartile, and maximum.</p>
 
@@ -673,15 +672,14 @@ sns.boxplot(x=judge_stanton_hr['release_speed'], data=judge_stanton_hr, color='t
 
 
 
-    Text(0.5,1,'Home Runs, 2015-2017')
 
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Basball/output_9_1.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_9_1.png" alt="Test">
 
 
-## 6. Home runs by pitch location (I)
+## Home runs by pitch location (I)
 <p>So Judge appears to hit his home runs off of faster pitches than Stanton. We might call Judge a fastball hitter. Stanton appears agnostic to pitch speed and likely pitch movement since slower pitches (e.g. curveballs, sliders, and changeups) tend to have more break. Statcast <em>does</em> track pitch movement and type but let's move on to something else: <strong>pitch location</strong>. Statcast tracks the zone the pitch is in when it crosses the plate. The zone numbering looks like this (from the catcher's point of view):</p>
 <p><img style="margin:5px 20px 5px 1px; width:20%;" src="https://s3.amazonaws.com/assets.datacamp.com/production/project_250/img/zone.png"></p>
 <p>We can plot this using a 2D histogram. For simplicity, let's only look at strikes, which gives us a 9x9 grid. We can view each zone as coordinates on a 2D plot, the bottom left corner being (1,1) and the top right corner being (3,3). Let's set up a function to assign x-coordinates to each pitch.</p>
@@ -704,7 +702,7 @@ def assign_x_coord(row):
         return 3
 ```
 
-## 7. Home runs by pitch location (II)
+## Home runs by pitch location (II)
 <p>And let's do the same but for y-coordinates.</p>
 
 
@@ -725,7 +723,7 @@ def assign_y_coord(row):
         return 1
 ```
 
-## 8. Aaron Judge's home run zone
+## Aaron Judge's home run zone
 <p>Now we can apply the functions we've created then construct our 2D histograms. First, for Aaron Judge (again, for pitches in the strike zone that resulted in home runs).</p>
 
 
@@ -747,10 +745,10 @@ cb.set_label('Counts in Bin')
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_15_1.png" alt="Test">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Baseball/output_15_0.png" alt="Test">
 
 
-## 9. Giancarlo Stanton's home run zone
+## Giancarlo Stanton's home run zone
 <p>And now for Giancarlo Stanton.</p>
 
 
