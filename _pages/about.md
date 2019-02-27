@@ -53,12 +53,12 @@ I am a senior at North Carolina State University studying in Business Administra
 
 ### Waste Management
 * Research Report[Download]({{ site.url }}/assets/WasteManagement.pdf)
-* PowerPoint Presentation[Download]({{ site.url }}/assets/WasteManagementDCF.pdf)
+* PowerPoint Presentation[Download]({{ site.url }}/assets/WasteManagementDCF.xlsx)
 * Excel Financial Model[Download]({{ site.url }}/assets/WasteManagementPPT.pdf)
 
 ### Microsoft
 * Research Report[Download]({{ site.url }}/assets/MSFTreport.pdf)
-* Excel Financial Model [Download]({{ site.url }}/assets/MicrosoftDCF.pdf)
+* Excel Financial Model [Download]({{ site.url }}/assets/MicrosoftDCF.xlsx)
 
 ### Duke Energy
 * Research Report [Download]({{ site.url }}/assets/DukeEnergy.pdf)
